@@ -2,7 +2,7 @@
 
 <br>
 
-# ✦ obsidian-note-assistant ✦
+# obsidian-note-assistant
 
 ### *Your AI-Powered Second Brain*
 
