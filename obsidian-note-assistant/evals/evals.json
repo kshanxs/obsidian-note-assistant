@@ -1,0 +1,20 @@
+{
+  "skill_name": "obsidian-note-assistant",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Here's a rough draft from my Drafts folder:\n\n---\nWant to build something like Notion but personal. No databases, no teams. Just a local app that lets you write notes in markdown, draws connections between them automatically, and shows you a graph of all your ideas. Maybe some AI to suggest links? Could be an electron app or something. Call it 'MindMap Local' or something cooler later.\n---\n\nFilename: Drafts/app-idea-mindmap.md\n\nPlease process this into a refined note.",
+      "expected_output": "A fully structured refined note in Ideas/Coding category, with a good title, tags, all relevant sections, plus a draft header and vault CLI commands. Should include a Refined ID."
+    },
+    {
+      "id": 2,
+      "prompt": "I want to sync this draft with its existing refined note. Here's the draft (which I've updated with some new thoughts):\n\n---\nstatus: refined\nrefined_id: RID-20240310-B2C9\nrefined_note: '[[Ideas/Trip/2024-03-10 - Coorg Weekend Trip.md]]'\nlast_synced: 2024-03-10\n---\nCoorg trip plan with Priya and Rohan. Drive from Bangalore, around 5 hours. Stay at a homestay. Want to do: Abbey Falls, Raja's Seat, coffee plantation tour. Best time: October-November. Budget ~15k per person. Also thinking we should try whitewater rafting if possible — just found out there's a good spot near Barapole river.\n---\n\nAnd here's the existing refined note:\n\n---\ntitle: \"Coorg Weekend Trip\"\ntags: [#trip, #travel, #coorg]\ncategory: Ideas/Trip\nrefined_id: RID-20240310-B2C9\ndraft_source: '[[Drafts/coorg-trip.md]]'\ncreated: 2024-03-10\nlast_synced: 2024-03-10\n---\n\n# Coorg Weekend Trip\n\n## Overview\nA weekend trip to Coorg with Priya and Rohan. Driving from Bangalore (~5 hours). Planning a homestay experience to soak in the nature and local culture.\n\n## Key Details\n- **Duration:** 3 days / 2 nights\n- **Estimated Budget:** ₹15,000 per person\n- **Travel Dates:** October or November 2024\n- **Companions:** Priya, Rohan\n\n## Places to Visit / Things to Do\n- Abbey Falls\n- Raja's Seat (sunrise viewpoint)\n- Coffee plantation tour\n\n## Logistics\n- **Getting there:** Drive from Bangalore, ~5 hours\n- **Accommodation:** Homestay (to be finalized)\n\n## Next Steps\n- [ ] Research homestay options on Airbnb/booking.com\n- [ ] Check weather for October vs November\n- [ ] Confirm dates with Priya and Rohan\n---\n\nPlease sync these two notes.",
+      "expected_output": "Updated refined note with the new whitewater rafting idea merged in, an updated draft header with the new last_synced date, a sync summary, and vault commands. Refined ID should remain unchanged."
+    },
+    {
+      "id": 3,
+      "prompt": "Turn this into a note:\n\njust finished reading chapter 3 of atomic habits. the key insight is that habits are tied to identity not outcomes. instead of saying 'i want to run a marathon' you say 'i am a runner'. every small action is a vote for the kind of person you want to become. two minute rule is also useful — scale habits down until they take under 2 minutes to start. makes the starting feel easy.",
+      "expected_output": "A Knowledge category note summarizing the key ideas from Atomic Habits chapter 3, with proper sections (Summary, Key Concepts, My Take), relevant tags, a Refined ID, and vault commands."
+    }
+  ]
+}
